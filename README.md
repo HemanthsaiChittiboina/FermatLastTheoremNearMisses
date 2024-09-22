@@ -66,9 +66,9 @@ public class FermatLastTheoremNearMisses {
         double relativeMiss = miss / sumXY;
 
                 System.out.println(n + " " + k + " X= " + smallestMissX + ", y= " + smallestMissY + ", relative diff= " + String.format("%.7f", relativeMiss));
-
     }
-}
+    }
+
 
 
 
