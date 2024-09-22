@@ -32,8 +32,8 @@ Program Explanation
 
 This Java program searches for "near-misses" related to Fermat's Last Theorem. Specifically, it computes near-solutions to the equation:
 
-import java.util.Scanner;
-public class FermatLastTheoremNearMisses {
+    import java.util.Scanner;
+    public class FermatLastTheoremNearMisses {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the power to use in the equation (2 < n < 12): ");
