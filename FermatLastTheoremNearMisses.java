@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class FermatLastTheoremNearMisses {
@@ -35,12 +36,7 @@ public class FermatLastTheoremNearMisses {
         double miss = Math.min(Math.abs(sumXY - Math.pow(smallestMissZ, n)), Math.abs(Math.pow(smallestMissZ + 1, n) - sumXY));
         double relativeMiss = miss / sumXY;
 
-        System.out.println("\nSmallest possible miss:");
-        System.out.println("x: " + smallestMissX + ", y: " + smallestMissY + ", z: " + smallestMissZ);
-        System.out.println("Actual miss: " + miss);
-        System.out.println("Relative miss: " + relativeMiss * 100 + "%");
+                System.out.println(n + " " + k + " X= " + smallestMissX + ", y= " + smallestMissY + ", relative diff= " + String.format("%.7f", relativeMiss));
 
-        System.out.println("Press Enter to exit...");
-        scanner.nextLine();
     }
 }
